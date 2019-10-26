@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My first Vue app</title>
+  <title>Vuejs. Starting stuff</title>
   <script src="https://unpkg.com/vue"></script>
 </head>
 <body>
   <div id="app">
     {{ message }}
   </div>
+  <div>
+      <button style="font-size: 20px;">Click me</button>
+  </div>
 
   <script>
     var app = new Vue({
       el: '#app',
       data: {
-        message: 'Hello Vue!'
+        message: 'Weekend Vue!'
       }
     })
   </script>
+
 </body>
 </html>
